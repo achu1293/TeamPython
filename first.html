@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    h3{
+        font-size:32px;
+        color:red;
+        text-decoration: underline;
+
+    }
+    </style>
+<body>
+    <p id="a">My first program</p>
+    <a id="b" href="http://www.google.com">Google</a>
+    <h3 id="c">Have a nice day</h3>
+    <button onclick="fun()">Click me</button>
+    <script>
+        function fun()
+        {
+        document.getElementById("a").innerHTML="Good morning guys";
+        document.getElementById("b").href="http://www.w3schools.com";
+        document.getElementById("b").innerHTML="W3schools";
+        document.getElementById("c").style.fontSize='48px';
+        document.getElementById("c").style.color='grey';
+        document.getElementById("c").style.textDecoration='none';
+        }
+    </script>
+</body>
+</html>

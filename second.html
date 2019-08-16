@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+.image{
+    width:150px;
+    height:150px;
+}
+</style>
+<body>
+    
+    name : <input type="text" name="name" id="n">
+    <button onclick="fun()">Click</button><br><br>
+    <div><img src="butterfly.jpg" alt="butterfly" id ="a" class="image">
+    <img src="flower.JPG" alt="flower" id="b" class="image"></body></div><br>
+    <div><img src="god.jpg" alt="god" id="c" class="image">
+    <img src="parrot.jpg" alt="parrot" id="d" class="image"></div>
+    <img src="pooja.JPG" alt="pooja" id="e" class="image">
+    <script>
+        function fun(){
+        //var name=document.getElementById('n');
+        //document.getElementById("n").innerHTML= +name;
+        var name=prompt("enter the name");
+        if (name=='butterfly')
+            document.getElementById('a').src="";
+        else if (name=='flower')
+            document.getElementById('b').src="";
+        else if (name=='god')
+            document.getElementById('c').src="";
+        else if (name=='parrot')
+            document.getElementById('d').src="";
+        else if (name=='pooja')
+            document.getElementById('e').src="";
+        /*else
+            window.alert("invalid input");*/
+        }
+    </script>
+</body>
+</html>
